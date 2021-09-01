@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.green</groupId>
-	<artifactId>biz</artifactId>
-	<name>JunitEx00</name>
+	<artifactId>bi</artifactId>
+	<name>ApplicationTest</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
@@ -110,7 +110,7 @@
 		</dependency>
 	
 		<!-- Test -->
-		<dependency>
+			<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
@@ -121,8 +121,8 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<version>${org.springframework-version}</version>
-		</dependency>  
-		      
+		</dependency>    
+		
 	</dependencies>
     <build>
         <plugins>
